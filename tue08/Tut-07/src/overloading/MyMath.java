@@ -28,6 +28,6 @@ public class MyMath {
 		
 		double baseAsDouble = IOTools.readDouble("Basis (beliebige Zahl) ");
 		exp = IOTools.readInt("Exponent (ganze Zahl) ");
-		System.out.println(base + " hoch " + exp + " = " + hoch(baseAsDouble, exp));
+		System.out.println(baseAsDouble + " hoch " + exp + " = " + hoch(baseAsDouble, exp));
 	}
 }
