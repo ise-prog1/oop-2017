@@ -1,6 +1,7 @@
 
 public class Rechnen {
 	
+	// disallow instanciation by changing constructor visibility from the default public to private
 	private Rechnen() {
 		
 	}

@@ -1,5 +1,7 @@
 import Prog1Tools.IOTools;
-
+/**
+ * A simple CaesarCipher program
+ */
 public class CaesarCipher {
 
 	public static void main(String[] args) {

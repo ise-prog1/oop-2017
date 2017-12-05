@@ -1,4 +1,7 @@
-
+/**
+ * This class represents a more specialized Dog
+ *
+ */
 public class Dog extends Animal {
 	
 	private int beine = 4;
@@ -14,13 +17,13 @@ public class Dog extends Animal {
 	
 	
 	public void bellen() {
-		System.out.println(this.name + " bellt auf 4 Beinen!");
+		System.out.println(this.name + " bellt auf "+ beine +" Beinen!");
 	}
 	
 	@Override
 	public void fuettern() {
 		super.fuettern();
-		System.out.println(this.name + " wird mit Hundefutter gefüttert und hat 4 Beine!");
+		System.out.println(this.name + " wird mit Hundefutter gefüttert und hat "+ beine + " Beine!");
 	}
 	
 }

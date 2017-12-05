@@ -15,6 +15,7 @@ public class FarbFernseher extends Fernseher {
 			this.color += i; // increment
 			this.color = Math.max(0, Math.min(50, this.color)); // clamp
 		} else {
+			// handle in super class (Fernseher)
 			super.change(string, i);
 		}
 	}

@@ -30,8 +30,9 @@ public class RekursionsDemo {
 	
 	/**
 	 * Dumme Lösung! StackOverflow für hohe n!
+	 * Schlägt auch fehl für  n < 0
 	 * @param n
-	 * @return
+	 * @return true if n is even, false otherwise
 	 */
 	public static boolean isEvenRec(int n) {
 		if (n == 1) {

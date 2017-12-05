@@ -1,4 +1,6 @@
-
+/**
+ * This class demonstrates Dog and Animal
+ */
 public class TestAnimal {
 
 	public static void main(String[] args) {

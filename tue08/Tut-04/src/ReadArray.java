@@ -1,5 +1,7 @@
 import Prog1Tools.IOTools;
-
+/**
+ * Simple methods
+ */
 public class ReadArray {
 	
 	public static double[] readArray(int anzahl) {

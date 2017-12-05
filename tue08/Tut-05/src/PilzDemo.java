@@ -18,7 +18,7 @@ public class PilzDemo {
 		byte b = 0;
 		long l = 0L;
 		char c = '\0';
-		
+		// implicit casting demo
 		print(b);
 		print(s);
 		print(i);
